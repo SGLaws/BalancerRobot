@@ -12,6 +12,6 @@ TEST(TestTopic, TrivialEquality)
 
 TEST(TestTopic, MoreEquality)
 {
-    ASSERT_EQ(Get42(), 42) << "Oh no, a mistake!";
+    ASSERT_EQ(Get42(), 2) << "Oh no, a mistake!";
     EXPECT_FLOAT_EQ(23.23F, 23.23F);
 }
