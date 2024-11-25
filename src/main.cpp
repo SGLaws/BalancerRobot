@@ -7,7 +7,7 @@ int get42()
 
 int main()
 {
-    std::cout << "Hello, world!" << std::endl;
+    std::cout << "Hello, world, from pi!" << std::endl;
     std::cout << get42() << std::endl;
 
     
